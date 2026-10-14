@@ -1,0 +1,12 @@
+[project]
+name = "victoria-parking-data"
+version = "0.1.0"
+description = "Process Victoria parking JSON snapshots into monthly CSVs"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "polars>=1.30,<2",
+]
+
+[tool.uv]
+package = false

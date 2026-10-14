@@ -1,0 +1,13 @@
+# Local archives and generated CSVs
+data/
+
+# Python environment and caches
+.venv/
+__pycache__/
+*.py[cod]
+
+# Local files
+*.log
+.env
+.env.*
+.DS_Store
